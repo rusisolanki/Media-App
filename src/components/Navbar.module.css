@@ -1,0 +1,37 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.navbar {
+  width: 255px;
+  height: 100vh;
+  box-shadow: -1px 0px 0px 0px rgba(0, 0, 0, 0.05) inset;
+}
+.heading {
+  text-align: center;
+  color: #552583;
+  margin-top: 32px;
+}
+.list {
+  list-style: none;
+  display: flex;
+  height: 75%;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+li:first-child {
+  background: var(--Daybreak-Blue-1, #e6f7ff);
+}
+
+.listItems {
+  padding: 0 20px;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  gap: 10px;
+}

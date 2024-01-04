@@ -1,0 +1,116 @@
+.wrapper{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.form {
+  width: 798px;
+  height: 584px;
+  border-radius: 2px;
+  box-shadow: 0px 9px 28px 8px rgba(0, 0, 0, 0.05),
+    0px 6px 16px 0px rgba(0, 0, 0, 0.08), 0px 3px 6px -4px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+h4 {
+  padding: 16px 24px;
+  box-shadow: 0px -1px 0px 0px #f0f0f0 inset;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+}
+
+.container input {
+  border-radius: 2px;
+  border: 1px solid var(--Neutral-5, #d9d9d9);
+  padding: 4px 12px;
+}
+.container label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.formField {
+  display: flex;
+  flex-direction: column;
+  width: 736px;
+  padding-bottom: 24px;
+}
+.form button {
+  border-radius: 2px;
+  border: 1px solid var(--Neutral-5, #d9d9d9);
+}
+.upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  background-color: white;
+  padding: 5px 16px;
+  border-radius: 2px;
+  border: 1px solid var(--Neutral-5, #d9d9d9);
+}
+.btns {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 16px 10px 640px;
+  align-items: flex-start;
+  gap: 9px;
+  box-shadow: 0px 1px 0px 0px #f0f0f0 inset;
+}
+.btns button {
+  display: flex;
+  padding: 5px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cancel {
+  border-radius: 2px;
+  border: 1px solid var(--Neutral-5, #d9d9d9);
+  background-color: white;
+}
+.add {
+  border-radius: 2px;
+  border: 1px solid var(--Neutral-5, #d9d9d9);
+  background-color: #1890ff;
+  color: white;
+}
+.input {
+  display: none;
+}
+.uploadedFile {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  gap: 10px;
+  color: #1890ff;
+  border-radius: 2px;
+  border: 1px solid var(--Neutral-5, #d9d9d9);
+}
+.para {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 20px 0px;
+  color: var(--character-secondary-45, rgba(0, 0, 0, 0.45));
+}

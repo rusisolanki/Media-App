@@ -1,0 +1,64 @@
+.main{
+    display: flex;
+    /* position: relative; */
+    /* background-color: rgba(0, 0, 0, 0.25); */
+}
+/* .openDialog{
+    display: flex;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.25);
+} */
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.099);
+}
+h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.add{
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #FDB927;
+    border-radius: 5px;
+    border: transparent;
+}
+table{
+    width: 100%;
+    /* padding: 20px; */
+    text-align: center;
+}
+th{
+    height: 80px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.099);
+}
+.song{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: inherit;
+}
+p{
+    font-size: 1em;
+    margin: 0;
+}
+.tableData{
+    height: 75px;
+}
+td{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.099);
+}
+.delete{
+    width: 15%;
+}
